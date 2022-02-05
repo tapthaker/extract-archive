@@ -5,4 +5,4 @@ Extract-archive is a utility that extracts static archive files Ref: [FreeBSD Ma
 
 ### Why?
 
-Unfortunately, the ar utility that macOS ships with does not work under this situation. This utility aims to handle situations when multiple object-files with the same name are present in the archive.
+The ar utility that macOS ships with does not work when multiple object-files with the same name are present in the archive. This utility aims to handle extraction in such situations.
