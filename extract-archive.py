@@ -40,7 +40,7 @@ def extract_archive(archive_path, destination_path) :
             archive.seek(AR_FILE_START_OFFSET, SEEK_CUR)
 
         if ar_file_name in processed_files:
-            new_file_name = ar_file_name + str(processed_files[ar_file_name] + 1)
+            new_file_name = str(processed_files[ar_file_name] + 1) + '-' + ar_file_name
         else:
             new_file_name = ar_file_name
 
