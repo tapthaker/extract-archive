@@ -1,7 +1,7 @@
 
 ## Extract Archive
 
-Extract-archive is a utility that extracts static archive files Ref: [FreeBSD Manual Pages ar](https://www.freebsd.org/cgi/man.cgi?query=ar).
+Extract-archive is a utility that extracts static archive files Ref: [FreeBSD Manual Pages ar](https://www.freebsd.org/cgi/man.cgi?query=ar&sektion=5&apropos=0&manpath=FreeBSD+13.0-RELEASE+and+Ports).
 
 ### Why?
 
