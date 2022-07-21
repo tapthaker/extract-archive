@@ -76,7 +76,8 @@ def extract_archive(archive_path, destination_path):
 
         if ar_file_name in processed_files:
             filename, ext = os.path.splitext(ar_file_name)
-            new_file_name = filename + str(processed_files[ar_file_name] + 1) + ext
+            new_file_name = str(processed_files[ar_file_name] + 1) + '-' + filename + ext
+            processed_files[ar_file_name] = processed_files[ar_file_name] + 1
         else:
             new_file_name = ar_file_name
 
